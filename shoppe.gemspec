@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency "bcrypt-ruby", "~> 3.1.2"
   s.add_dependency "ransack", "~> 1.0.0"
   s.add_dependency "kaminari", ">= 0.14.1", "< 0.16"
-  s.add_dependency "haml", "~> 4.0.3"  
+  s.add_dependency "haml", ">= 4.0.3", "< 6.2.0"  
   s.add_dependency "dynamic_form", "~> 1.1.4"
   s.add_dependency "jquery-rails", "~> 3.0.4"
   s.add_dependency "coffee-rails", "~> 4.0.0"
